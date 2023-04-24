@@ -1,0 +1,34 @@
+#header {
+	padding: 15px 0;
+    .logo {
+    	position: relative;
+    	h1 {
+    		font-family: 'Permanent Marker', cursive;
+    		font-size: 78px;
+    		position: absolute;
+	        top: 16px;
+    		right: -135px;
+    	}
+    	img {
+    		max-width: 230px;
+    	}
+    }	
+	nav {
+		.menu-header {
+			li {
+				margin-left: 20px;
+				a {
+					color: #000;
+					font-size: 48px;
+					font-family: 'Bangers', cursive;
+				}
+				a:hover {
+					color: #fff;
+				}
+			}
+			li:first-child {
+				margin-left: 0;
+			}
+		}
+	}
+}

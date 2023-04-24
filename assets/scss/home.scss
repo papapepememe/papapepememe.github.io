@@ -1,0 +1,136 @@
+.home-page {
+	.carousel {
+		.carousel-item {
+			h1.title {
+				font-size: 144px;
+				font-family: 'Permanent Marker', cursive;;
+			}
+			p {
+				font-size: 48px;
+				line-height: 48px;
+			}
+		}
+		.carousel-indicators {
+			bottom: -40px;
+			left: auto;
+			margin-right: 0;
+			button {
+			  width: 35px!important;
+			  height: 35px!important;
+			  background-color: #808080;
+			  border-radius: 50%;
+			  border: 0.5px solid #000;
+			  opacity: 1;
+			  margin-right: 20px;
+			}
+		}
+		.carousel-indicators .active {
+			background-color: transparent;
+		}
+	}
+	.air-drop {
+		padding: 30px;
+		background:#B79351 ;
+		.air-drop-info {
+			text-align: right;
+			h4.title {
+				font-size: 64px;
+				font-weight: normal;
+			}
+			p {
+				font-size: 42px;
+				font-style: italic;
+				line-height: 42px;
+			}
+		}
+		.air-drop-for {
+			text-align: right;
+			p {
+				font-size: 42px;
+				line-height: 42px;
+			}
+		}
+		.token-claimable {
+			margin-top: 30px;
+			text-align: center;
+			p {
+				font-size: 36px;
+				line-height: 36px;
+				span {
+					font-family: 'Bangers', cursive;
+					font-size: 64px;
+				}
+			}
+		}
+		.progress {
+			height: 30px;
+			.bg-success {
+				background-color: #D5AC60!important;
+			}
+		}
+		p.max-token-claimable {
+			font-family: 'Bangers', cursive;
+			font-size: 48px;
+			line-height: 48px;
+			text-align: right;
+			margin-top: 20px;
+			margin-bottom: 30px;
+		}
+		.btn-area {
+			text-align: center;
+			button.btn-home-page {
+				background-color: transparent;
+				font-size: 48px;
+			    line-height: 48px;
+			    padding: 10px;
+			    border-radius: 10px;
+		        margin-right: 100px;
+    			width: 350px;
+			}
+			button.btn-home-page:last-of-type {
+				margin-right: 0;
+			}
+		}
+	}
+	.about-pape {
+		margin-top: 60px;
+		.img {
+			img {
+				width: 100%;
+			}
+		}
+		.description {
+			h4.title {
+				font-size: 64px;
+				text-align: center;
+			}
+			p {
+				font-size: 30px;
+				line-height: 42px;
+				text-align: right;
+			}
+		}
+	}
+	.tokenomic {
+		margin-top: 60px;
+		h1.title {
+			font-size: 144px;
+   			font-family: "Permanent Marker", cursive;
+   			text-align: center;
+   			margin-bottom: 60px;
+		}
+		.info {
+			h4.title {
+				font-size: 64px;
+				line-height: 70px;
+				font-family: 'Bangers', cursive;
+				margin-bottom: 30px;
+			}
+			p {
+				font-size: 42px;
+				line-height: 42px;
+				font-style: italic;
+			}
+		}
+	}
+}
