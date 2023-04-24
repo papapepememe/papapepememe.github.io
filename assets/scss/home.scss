@@ -127,9 +127,61 @@
 				margin-bottom: 30px;
 			}
 			p {
-				font-size: 42px;
+				font-size: 30px;
 				line-height: 42px;
 				font-style: italic;
+				span {
+					font-weight: bold;
+				}
+			}
+		}
+		.img {
+		    border-radius: 50%;
+		    border: 7px solid #fff;
+		    height: 100%;
+		}
+		.transparency {
+			margin-top: 30px;
+			h4.title {
+				font-size: 64px;
+				font-family: 'Bangers', cursive;
+				margin-bottom: 30px;
+			}
+			p {
+				font-size: 30px;
+				line-height: 42px;
+				font-style: italic;
+				span {
+					font-weight: bold;
+				}
+			}
+		}
+	}
+	.road-map {
+		margin-top: 60px;
+		h1.title {
+			font-size: 144px;
+   			font-family: "Permanent Marker", cursive;
+   			text-align: center;
+   			margin-bottom: 60px;
+		}
+		.road-map-info {
+			.phase {
+			    font-size: 30px;
+			    line-height: 32px;
+			    width: 55%;
+			    margin: auto;
+			    p {
+			    	margin-bottom: 0;
+			    }
+			}
+			.direction {
+				padding: 30px;
+				background: #B79351;
+				margin-top: 30px;
+				p {
+					margin-bottom: 0;
+				}
 			}
 		}
 	}
