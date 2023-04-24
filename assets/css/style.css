@@ -610,6 +610,22 @@ footer .social-area ul.social-list li:first-child {
   font-size: 42px;
   line-height: 42px;
 }
+.home-page .air-drop .time-airdrop {
+  text-align: center;
+  width: 800px;
+  margin: auto;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  padding: 5px;
+}
+.home-page .air-drop .time-airdrop p {
+  margin-bottom: 0;
+  color: #fff;
+  font-size: 25px;
+}
+.home-page .air-drop .time-airdrop p i {
+  margin-right: 10px;
+}
 .home-page .air-drop .token-claimable {
   margin-top: 30px;
   text-align: center;
@@ -624,9 +640,12 @@ footer .social-area ul.social-list li:first-child {
 }
 .home-page .air-drop .progress {
   height: 30px;
+  border-radius: 20px;
 }
 .home-page .air-drop .progress .bg-success {
-  background-color: #D5AC60 !important;
+  background: linear-gradient(270deg, #d5ac60 0%, #e2c986 100%);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 .home-page .air-drop p.max-token-claimable {
   font-family: "Bangers", cursive;
@@ -641,12 +660,11 @@ footer .social-area ul.social-list li:first-child {
 }
 .home-page .air-drop .btn-area button.btn-home-page {
   background-color: transparent;
-  font-size: 48px;
-  line-height: 48px;
+  font-size: 30px;
   padding: 10px;
   border-radius: 10px;
   margin-right: 100px;
-  width: 350px;
+  width: 250px;
 }
 .home-page .air-drop .btn-area button.btn-home-page:last-of-type {
   margin-right: 0;
