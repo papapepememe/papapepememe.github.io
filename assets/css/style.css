@@ -35,6 +35,11 @@ a:hover {
   color: #9C9AF4;
 }
 
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
@@ -552,34 +557,39 @@ footer .social-area ul.social-list li:first-child {
   margin-left: 0;
 }
 
-.home-page .carousel .carousel-item h1.title {
+.home-page .info h1.title {
   font-size: 144px;
   font-family: "Permanent Marker", cursive;
 }
-.home-page .carousel .carousel-item p {
+.home-page .info p {
   font-size: 48px;
   line-height: 48px;
 }
-.home-page .carousel .carousel-indicators {
-  bottom: -40px;
-  left: auto;
-  margin-right: 0;
+.home-page .social-area {
+  position: absolute;
+  bottom: 0;
 }
-.home-page .carousel .carousel-indicators button {
-  width: 35px !important;
-  height: 35px !important;
-  background-color: #808080;
-  border-radius: 50%;
-  border: 0.5px solid #000;
-  opacity: 1;
+.home-page .social-area .social-list {
+  list-style: none;
+}
+.home-page .social-area .social-list li {
   margin-right: 20px;
 }
-.home-page .carousel .carousel-indicators .active {
-  background-color: transparent;
+.home-page .social-area .social-list li a img {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+.home-page .social-area .social-list li a:hover img {
+  transform: scale(1.2);
+  transition: all 0.5s ease-in-out;
 }
 .home-page .air-drop {
   padding: 30px;
   background: #B79351;
+  margin-top: 60px;
+  border: 2px solid #6495ED;
+  box-shadow: 0 0 5px #6495ED;
 }
 .home-page .air-drop .air-drop-info {
   text-align: right;

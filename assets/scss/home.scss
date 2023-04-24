@@ -1,36 +1,41 @@
 .home-page {
-	.carousel {
-		.carousel-item {
-			h1.title {
-				font-size: 144px;
-				font-family: 'Permanent Marker', cursive;;
-			}
-			p {
-				font-size: 48px;
-				line-height: 48px;
-			}
+	.info {
+		h1.title {
+			font-size: 144px;
+			font-family: 'Permanent Marker', cursive;;
 		}
-		.carousel-indicators {
-			bottom: -40px;
-			left: auto;
-			margin-right: 0;
-			button {
-			  width: 35px!important;
-			  height: 35px!important;
-			  background-color: #808080;
-			  border-radius: 50%;
-			  border: 0.5px solid #000;
-			  opacity: 1;
-			  margin-right: 20px;
-			}
+		p {
+			font-size: 48px;
+			line-height: 48px;
 		}
-		.carousel-indicators .active {
-			background-color: transparent;
+	}
+	.social-area {
+		position: absolute;
+		bottom: 0;
+		.social-list {
+			list-style: none;
+			li {
+				margin-right: 20px;
+				a {
+					img {
+						border-radius: 50%;
+						width: 80px;
+						height: 80px;
+					}
+				}
+				a:hover img {
+					transform: scale(1.2);
+  					transition: all 0.5s ease-in-out;
+				}
+			}
 		}
 	}
 	.air-drop {
 		padding: 30px;
 		background:#B79351 ;
+		margin-top: 60px;
+		border: 2px solid #6495ED;
+		box-shadow: 0 0 5px #6495ED;
 		.air-drop-info {
 			text-align: right;
 			h4.title {
