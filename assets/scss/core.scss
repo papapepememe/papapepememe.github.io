@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Open+Sans&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Slackey&display=swap');
 * {
     
     -webkit-box-sizing: border-box;
@@ -14,13 +14,13 @@ html {
 body {
     margin: 0;
     padding: 0;
-    color: #000;
+    color: #fff;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: -0.02em;
     font-weight: 300;
-    font-family: 'Open Sans', sans-serif;
-    background-color: #D5AC60;
+    font-family: 'Slackey', cursive;
+    background-color: #533E6D;
 }
 
 img {
@@ -51,6 +51,10 @@ h4,
 h5,
 h6 {
     font-weight: 700;
+}
+
+.container-fluid {
+   padding: 0 314px;
 }
 
 .color-1 {
