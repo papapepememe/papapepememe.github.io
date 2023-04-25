@@ -47,7 +47,7 @@
 		background: url(../images/home-bg-1.png) center center no-repeat; 
 		background-size: auto;
 		text-align: center;
-		padding-bottom: 374px;
+		padding-bottom: 200px;
 		h1.title {
 			font-size: 64px;
 			line-height: 91px;
@@ -192,7 +192,7 @@
 		background: url(../images/home-bg-3.png) center center no-repeat; 
 		background-size: auto;
 		text-align: center;
-		padding-bottom: 240px;
+		padding-bottom: 41px;
 		h1.title {
 			font-size: 64px;
 			line-height: 91px;
@@ -225,8 +225,7 @@
 			text-align: center;
 			.img {
 				img {
-					width: 386.89px;
-					height: 393px;
+					width: 100%;
 				}
 			}
 			h4.title {
@@ -241,7 +240,6 @@
 				font-size: 24px;
 				line-height: 134.79%;
 				text-align: left;
-			    width: 70%;
     			margin: 0 auto;
     			margin-bottom: 28px;
     			color: #B2A6C0;
@@ -265,7 +263,7 @@
 		background: url(../images/home-bg-3.png) center center no-repeat; 
 		background-size: auto;
 		text-align: center;
-		padding-bottom: 99px;
+		padding-bottom: 57px;
 		.img {
 			margin-bottom: 66.32px;
 			img {
@@ -294,13 +292,49 @@
 			p {
 				margin-bottom: 0;
 			}
+			.text-1 {
+				background: url(../images/bg-text-1.png) center center no-repeat; 
+				background-size: cover;
+				width: 305.03px;
+				height: 276.58px;
+			    padding: 25px;
+    			margin: 0 auto;
+				p {
+					font-size: 20px;
+					line-height: 134.79%;
+				}
+			}
+			.text-2 {
+				background: url(../images/bg-text-2.png) center center no-repeat; 
+				background-size: cover;
+				width: 304.25px;
+				height: 294.17px;
+			    padding: 25px;
+    			margin: 0 auto;
+				p {
+					font-size: 20px;
+					line-height: 134.79%;
+				}
+			}
+			.text-3 {
+				background: url(../images/bg-text-3.png) center center no-repeat; 
+				background-size: cover;
+				width: 304.72px;
+				height: 285.55px;
+			    padding: 25px;
+    			margin: 0 auto;
+				p {
+					font-size: 20px;
+					line-height: 134.79%;
+				}
+			}
 		}
 	}
 	.road-map {
 		background: url(../images/bg-home-bottom.png) center center no-repeat; 
 		background-size: auto;
 		text-align: center;
-		padding-bottom: 464px;
+		padding-bottom: 560px;
 		h1.title {
 			font-size: 64px;
 			line-height: 91px;
@@ -328,11 +362,32 @@
 				}
 
 			}
-			.direction-1 {
+			.direction {
 				p::before {
 				  content: "\2022"; 
 				  margin-right: 0.5em; 
 				}
+			}
+			.direction-1 {
+				background: url(../images/bg-text-4.png) center center no-repeat; 
+				background-size: cover;
+				width: 1109.15px;
+				height: 308.23px;
+			    padding: 40px;
+			}
+			.direction-2 {
+				background: url(../images/bg-text-5.png) center center no-repeat; 
+				background-size: cover;
+				width: 1109px;
+				height: 394px;
+			    padding: 40px;
+			}
+			.direction-3 {
+				background: url(../images/bg-text-6.png) center center no-repeat; 
+				background-size: cover;
+				width: 1120px;
+				height: 297px;
+			    padding: 40px;
 			}
 		}
 	}
