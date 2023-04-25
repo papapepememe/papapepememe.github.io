@@ -815,6 +815,7 @@ footer .social-area ul.social-list li:first-child {
   text-align: left;
   width: 60%;
   margin: 0 auto;
+  margin-bottom: 28px;
 }
 .home-page .tokenomic .transparency p span {
   font-weight: bold;
