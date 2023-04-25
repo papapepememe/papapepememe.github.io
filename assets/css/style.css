@@ -19,7 +19,7 @@ body {
   letter-spacing: -0.02em;
   font-weight: 300;
   font-family: "Slackey", cursive;
-  background-color: #533E6D;
+  background-color: #53386C;
 }
 
 img {
@@ -740,7 +740,7 @@ footer .social-area ul.social-list li:first-child {
   background: url(../images/home-bg-2.png) center center no-repeat;
   background-size: auto;
   text-align: center;
-  padding-bottom: 308px;
+  padding-bottom: 280px;
 }
 .home-page .about-pape h1.title {
   font-size: 64px;
@@ -757,13 +757,13 @@ footer .social-area ul.social-list li:first-child {
 }
 .home-page .about-pape .description p {
   font-size: 24px;
-  line-height: 134.79%;
+  line-height: 180%;
 }
 .home-page .tokenomic {
-  background: url(../images/home-bg-1.png) center center no-repeat;
+  background: url(../images/home-bg-3.png) center center no-repeat;
   background-size: auto;
   text-align: center;
-  padding-bottom: 317px;
+  padding-bottom: 300px;
 }
 .home-page .tokenomic h1.title {
   font-size: 64px;
@@ -832,10 +832,10 @@ footer .social-area ul.social-list li:first-child {
   color: #Fff;
 }
 .home-page .tax-and-zeroloss {
-  background: url(../images/home-bg-2.png) center center no-repeat;
+  background: url(../images/home-bg-3.png) center center no-repeat;
   background-size: auto;
   text-align: center;
-  padding-bottom: 394px;
+  padding-bottom: 180px;
 }
 .home-page .tax-and-zeroloss .img {
   margin-bottom: 66.32px;
@@ -849,7 +849,7 @@ footer .social-area ul.social-list li:first-child {
 }
 .home-page .tax-and-zeroloss p {
   font-size: 24px;
-  line-height: 134.79%;
+  line-height: 180%;
   margin-bottom: 54px;
 }
 .home-page .tax-and-zeroloss span {
