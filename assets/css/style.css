@@ -555,11 +555,6 @@ h6 {
 
 footer {
   padding: 67px 0;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 20;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -912,10 +907,10 @@ footer .social-area ul.social-list li:first-child {
   line-height: 134.79%;
 }
 .home-page .road-map {
-  background: url(../images/bg-home-bottom.png) center center no-repeat;
+  background: url(../images/bg-home-bottom.png) bottom center no-repeat;
   background-size: auto;
   text-align: center;
-  padding-bottom: 560px;
+  padding-bottom: 200px;
 }
 .home-page .road-map h1.title {
   font-size: 64px;
