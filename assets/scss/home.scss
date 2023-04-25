@@ -44,7 +44,7 @@
 		}
 	}
 	.air-drop {
-		background: url(../images/home-bg-1.png) center center no-repeat; 
+		background: url(../images/home-bg-1.png) bottom center no-repeat; 
 		background-size: auto;
 		text-align: center;
 		padding-bottom: 200px;
@@ -164,7 +164,7 @@
 		}
 	}
 	.about-pape {
-		background: url(../images/home-bg-2.png) center center no-repeat; 
+		background: url(../images/home-bg-2.png) bottom center no-repeat; 
 		background-size: auto;
 		text-align: center;
 		padding-bottom: 280px;
@@ -189,7 +189,7 @@
 		}
 	}
 	.tokenomic {
-		background: url(../images/home-bg-3.png) center center no-repeat; 
+		background: url(../images/home-bg-1.png) bottom center no-repeat; 
 		background-size: auto;
 		text-align: center;
 		padding-bottom: 41px;
@@ -209,6 +209,7 @@
 				-webkit-text-stroke: 1px #000;
 				text-stroke: 1px #000;
 				margin-bottom: 28px;
+				text-align: center;
 			}
 			p {
 				font-size: 24px;
@@ -250,7 +251,7 @@
 						background: transparent;
 						color: #00D38E;
 						border: 0;
-						margin-left: 10px;
+						margin-left: 2px;
 					}
 					button:hover {
 						color: #Fff;
@@ -260,7 +261,7 @@
 		}
 	}
 	.tax-and-zeroloss {
-		background: url(../images/home-bg-3.png) center center no-repeat; 
+		background: url(../images/home-bg-2.png) bottom center no-repeat; 
 		background-size: auto;
 		text-align: center;
 		padding-bottom: 57px;

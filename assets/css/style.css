@@ -629,7 +629,7 @@ footer .social-area ul.social-list li:first-child {
   margin-right: 0;
 }
 .home-page .air-drop {
-  background: url(../images/home-bg-1.png) center center no-repeat;
+  background: url(../images/home-bg-1.png) bottom center no-repeat;
   background-size: auto;
   text-align: center;
   padding-bottom: 200px;
@@ -747,7 +747,7 @@ footer .social-area ul.social-list li:first-child {
   height: 68.92px;
 }
 .home-page .about-pape {
-  background: url(../images/home-bg-2.png) center center no-repeat;
+  background: url(../images/home-bg-2.png) bottom center no-repeat;
   background-size: auto;
   text-align: center;
   padding-bottom: 280px;
@@ -770,7 +770,7 @@ footer .social-area ul.social-list li:first-child {
   line-height: 180%;
 }
 .home-page .tokenomic {
-  background: url(../images/home-bg-3.png) center center no-repeat;
+  background: url(../images/home-bg-1.png) bottom center no-repeat;
   background-size: auto;
   text-align: center;
   padding-bottom: 41px;
@@ -792,6 +792,7 @@ footer .social-area ul.social-list li:first-child {
   -webkit-text-stroke: 1px #000;
   text-stroke: 1px #000;
   margin-bottom: 28px;
+  text-align: center;
 }
 .home-page .tokenomic .info p {
   font-size: 24px;
@@ -833,13 +834,13 @@ footer .social-area ul.social-list li:first-child {
   background: transparent;
   color: #00D38E;
   border: 0;
-  margin-left: 10px;
+  margin-left: 2px;
 }
 .home-page .tokenomic .transparency p span button:hover {
   color: #Fff;
 }
 .home-page .tax-and-zeroloss {
-  background: url(../images/home-bg-3.png) center center no-repeat;
+  background: url(../images/home-bg-2.png) bottom center no-repeat;
   background-size: auto;
   text-align: center;
   padding-bottom: 57px;
@@ -1158,53 +1159,59 @@ footer .social-area ul.social-list li:first-child {
   }
   .home-page .tax-and-zeroloss .transparency .text-1 {
     background: transparent;
-    border: 4px solid #00D38E;
-    border-radius: 25px;
+    border: 1px solid #00D38E;
     margin-bottom: 20px;
     width: auto;
     height: auto;
+    padding: 10px;
   }
   .home-page .tax-and-zeroloss .transparency .text-2 {
     background: transparent;
-    border: 4px solid #00D38E;
-    border-radius: 25px;
+    border: 1px solid #00D38E;
     margin-bottom: 20px;
     width: auto;
     height: auto;
+    padding: 10px;
   }
   .home-page .tax-and-zeroloss .transparency .text-3 {
     background: transparent;
-    border: 4px solid #00D38E;
-    border-radius: 25px;
+    border: 1px solid #00D38E;
     margin-bottom: 20px;
     width: auto;
     height: auto;
+    padding: 10px;
   }
   .home-page .road-map .road-map-info .direction-1 {
     background: transparent;
-    border: 4px solid #00D38E;
-    border-radius: 25px;
+    border: 1px solid #00D38E;
     margin-bottom: 20px;
     width: auto;
     height: auto;
+    padding: 10px;
   }
   .home-page .road-map .road-map-info .direction-2 {
     background: transparent;
-    border: 4px solid #00D38E;
-    border-radius: 25px;
+    border: 1px solid #00D38E;
     margin-bottom: 20px;
     width: auto;
     height: auto;
+    padding: 10px;
   }
   .home-page .road-map .road-map-info .direction-3 {
     background: transparent;
-    border: 4px solid #00D38E;
-    border-radius: 25px;
+    border: 1px solid #00D38E;
     margin-bottom: 20px;
     width: auto;
     height: auto;
+    padding: 10px;
   }
   .wrapper {
+    width: 100%;
+  }
+  footer {
+    text-align: center;
+  }
+  footer .footer-item {
     width: 100%;
   }
 }

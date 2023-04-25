@@ -207,54 +207,60 @@
   }
   .home-page .tax-and-zeroloss .transparency .text-1 {
     background: transparent;
-    border: 4px solid #00D38E;
-    border-radius: 25px;
+    border: 1px solid #00D38E;
     margin-bottom: 20px;
     width: auto;
     height: auto;
+    padding: 10px;
   }
   .home-page .tax-and-zeroloss .transparency .text-2 {
     background: transparent;
-    border: 4px solid #00D38E;
-    border-radius: 25px;
+    border: 1px solid #00D38E;
     margin-bottom: 20px;
     width: auto;
     height: auto;
+    padding: 10px;
   }
   .home-page .tax-and-zeroloss .transparency .text-3 {
     background: transparent;
-    border: 4px solid #00D38E;
-    border-radius: 25px;
+    border: 1px solid #00D38E;
     margin-bottom: 20px;
     width: auto;
     height: auto;
+    padding: 10px;
   }
   .home-page .road-map .road-map-info .direction-1 {
     background: transparent;
-    border: 4px solid #00D38E;
-    border-radius: 25px;
+    border: 1px solid #00D38E;
     margin-bottom: 20px;
     width: auto;
     height: auto;
+    padding: 10px;
   }
   .home-page .road-map .road-map-info .direction-2 {
     background: transparent;
-    border: 4px solid #00D38E;
-    border-radius: 25px;
+    border: 1px solid #00D38E;
     margin-bottom: 20px;
     width: auto;
     height: auto;
+    padding: 10px;
   }
   .home-page .road-map .road-map-info .direction-3 {
     background: transparent;
-    border: 4px solid #00D38E;
-    border-radius: 25px;
+    border: 1px solid #00D38E;
     margin-bottom: 20px;
     width: auto;
     height: auto;
+    padding: 10px;
   }
   .wrapper {
     width: 100%;
+  }
+  footer {
+    text-align: center;
+    .footer-item {
+      width: 100%;
+    }
   }
 }
 
