@@ -763,7 +763,7 @@ footer .social-area ul.social-list li:first-child {
   background: url(../images/home-bg-3.png) center center no-repeat;
   background-size: auto;
   text-align: center;
-  padding-bottom: 300px;
+  padding-bottom: 240px;
 }
 .home-page .tokenomic h1.title {
   font-size: 64px;
@@ -811,16 +811,15 @@ footer .social-area ul.social-list li:first-child {
 .home-page .tokenomic .transparency p {
   font-size: 24px;
   line-height: 134.79%;
-  font-family: "Caveat Brush", cursive;
   text-align: left;
-  width: 60%;
+  width: 70%;
   margin: 0 auto;
   margin-bottom: 28px;
+  color: #B2A6C0;
 }
 .home-page .tokenomic .transparency p span {
   font-weight: bold;
   color: #00D38E;
-  font-family: "Slackey", cursive;
 }
 .home-page .tokenomic .transparency p span button {
   background: transparent;
