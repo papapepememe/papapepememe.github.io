@@ -901,13 +901,20 @@ footer .social-area ul.social-list li:first-child {
   }
 }
 @media screen and (max-width: 991px) {
+  body {
+    background-color: #533E6D;
+  }
   #header {
+    padding: 10px 0;
     position: unset;
   }
   #header .navbar-toggler {
-    position: absolute;
-    right: 0;
     color: #9C9AF4;
+    margin-right: 10px;
+  }
+  #header nav .menu-header {
+    height: auto;
+    background: unset;
   }
   #header nav .menu-header li {
     margin-left: 0;
@@ -950,11 +957,29 @@ footer .social-area ul.social-list li:first-child {
     text-align: left;
     padding: 6px 10px;
   }
-  .home-page .top-home-page #home-instruction .instruction a.btn {
-    margin-bottom: 24px;
+  .home-page .top-home-page {
+    padding: 10px 0 90px;
   }
-  .page .trade-main {
+  .home-page .top-home-page .img {
+    text-align: center;
+  }
+  .home-page .air-drop .token-claimable p span {
+    font-size: 24px;
+  }
+  .home-page .tokenomic .transparency p {
     width: auto;
+  }
+  .home-page .tokenomic .transparency p span {
+    word-break: break-all;
+  }
+  .home-page .road-map {
+    padding-bottom: 100px;
+  }
+}
+@media screen and (max-width: 893px) {
+  .home-page .air-drop .btn-area button.btn-home-page {
+    margin-right: 0;
+    margin-bottom: 10px;
   }
 }
 
