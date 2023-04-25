@@ -1096,6 +1096,10 @@ footer .social-area ul.social-list li:first-child {
   .tokenomic .row {
     margin-bottom: 20px !important;
   }
+  .home-page .tax-and-zeroloss .transparency .row {
+    margin-bottom: 20px !important;
+    margin-top: 20px !important;
+  }
 }
 @media screen and (max-width: 893px) {
   .home-page .air-drop .btn-area button.btn-home-page {
