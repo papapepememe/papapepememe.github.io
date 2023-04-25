@@ -48,6 +48,13 @@
 		background-size: auto;
 		text-align: center;
 		padding-bottom: 374px;
+		h1.title {
+			font-size: 64px;
+			line-height: 91px;
+			-webkit-text-stroke: 1px #000;
+			text-stroke: 1px #000;
+			margin-bottom: 60px;
+		}
 		p {
 			font-size: 24px;
 			line-height: 134.79%;
@@ -318,6 +325,13 @@
 				margin-top: 60px;
 				p {
 					margin-bottom: 0;
+				}
+
+			}
+			.direction-1 {
+				p::before {
+				  content: "\2022"; 
+				  margin-right: 0.5em; 
 				}
 			}
 		}
