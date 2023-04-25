@@ -31,7 +31,10 @@ footer {
 			li {
 				margin-left: 40px;
 				a {
-					font-size: 20px;
+					img {
+						width: 42px;
+						height: 42px;
+					}
 				}
 			}
 			li:first-child {
