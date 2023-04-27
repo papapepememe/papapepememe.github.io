@@ -24,7 +24,7 @@ body {
 }
 
 .wrapper {
-  width: 90%;
+  width: 89%;
   margin: 0 auto;
   background: #533E6D;
 }
@@ -651,7 +651,7 @@ footer .social-area ul.social-list li:first-child {
 }
 .home-page .air-drop {
   background: url(../images/home-bg-1.png) bottom center no-repeat;
-  background-size: cover;
+  background-size: auto;
   text-align: center;
   padding-bottom: 200px;
 }
@@ -769,7 +769,7 @@ footer .social-area ul.social-list li:first-child {
 }
 .home-page .about-pape {
   background: url(../images/home-bg-2.png) bottom center no-repeat;
-  background-size: cover;
+  background-size: auto;
   text-align: center;
   padding-bottom: 280px;
 }
@@ -792,7 +792,7 @@ footer .social-area ul.social-list li:first-child {
 }
 .home-page .tokenomic {
   background: url(../images/home-bg-1.png) bottom center no-repeat;
-  background-size: cover;
+  background-size: auto;
   text-align: center;
   padding-bottom: 41px;
 }
@@ -862,7 +862,7 @@ footer .social-area ul.social-list li:first-child {
 }
 .home-page .tax-and-zeroloss {
   background: url(../images/home-bg-2.png) bottom center no-repeat;
-  background-size: cover;
+  background-size: auto;
   text-align: center;
   padding-bottom: 57px;
 }
@@ -887,50 +887,19 @@ footer .social-area ul.social-list li:first-child {
   color: #00D38E;
 }
 .home-page .tax-and-zeroloss .transparency {
-  margin-top: 35px;
+  margin-top: 70px;
 }
 .home-page .tax-and-zeroloss .transparency p {
   margin-bottom: 0;
 }
-.home-page .tax-and-zeroloss .transparency .text-1 {
-  background: url(../images/bg-text-1.png) center center no-repeat;
-  background-size: cover;
-  width: 305.03px;
-  height: 276.58px;
-  padding: 25px;
-  margin: 0 auto;
-}
-.home-page .tax-and-zeroloss .transparency .text-1 p {
-  font-size: 20px;
-  line-height: 134.79%;
-}
-.home-page .tax-and-zeroloss .transparency .text-2 {
-  background: url(../images/bg-text-2.png) center center no-repeat;
-  background-size: cover;
-  width: 304.25px;
-  height: 294.17px;
-  padding: 25px;
-  margin: 0 auto;
-}
-.home-page .tax-and-zeroloss .transparency .text-2 p {
-  font-size: 20px;
-  line-height: 134.79%;
-}
-.home-page .tax-and-zeroloss .transparency .text-3 {
-  background: url(../images/bg-text-3.png) center center no-repeat;
-  background-size: cover;
-  width: 304.72px;
-  height: 285.55px;
-  padding: 25px;
-  margin: 0 auto;
-}
-.home-page .tax-and-zeroloss .transparency .text-3 p {
-  font-size: 20px;
-  line-height: 134.79%;
+.home-page .tax-and-zeroloss .transparency .direction-2 {
+  text-align: center;
+  margin-bottom: 54px;
+  color: #00D38E;
 }
 .home-page .road-map {
   background: url(../images/bg-home-bottom.png) bottom center no-repeat;
-  background-size: cover;
+  background-size: auto;
   text-align: center;
   padding-bottom: 200px;
 }

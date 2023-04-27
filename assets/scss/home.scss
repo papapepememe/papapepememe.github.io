@@ -45,7 +45,7 @@
 	}
 	.air-drop {
 		background: url(../images/home-bg-1.png) bottom center no-repeat; 
-		background-size: cover;
+		background-size: auto;
 		text-align: center;
 		padding-bottom: 200px;
 		h1.title {
@@ -165,7 +165,7 @@
 	}
 	.about-pape {
 		background: url(../images/home-bg-2.png) bottom center no-repeat; 
-		background-size: cover;
+		background-size: auto;
 		text-align: center;
 		padding-bottom: 280px;
 		h1.title {
@@ -190,7 +190,7 @@
 	}
 	.tokenomic {
 		background: url(../images/home-bg-1.png) bottom center no-repeat; 
-		background-size: cover;
+		background-size: auto;
 		text-align: center;
 		padding-bottom: 41px;
 		h1.title {
@@ -262,7 +262,7 @@
 	}
 	.tax-and-zeroloss {
 		background: url(../images/home-bg-2.png) bottom center no-repeat; 
-		background-size: cover;
+		background-size: auto;
 		text-align: center;
 		padding-bottom: 57px;
 		.img {
@@ -289,51 +289,56 @@
 			color: #00D38E;
 		}
 		.transparency {
-			margin-top: 35px;
+			margin-top: 70px;
 			p {
 				margin-bottom: 0;
 			}
-			.text-1 {
-				background: url(../images/bg-text-1.png) center center no-repeat; 
-				background-size: cover;
-				width: 305.03px;
-				height: 276.58px;
-			    padding: 25px;
-    			margin: 0 auto;
-				p {
-					font-size: 20px;
-					line-height: 134.79%;
-				}
+			.direction-2 {
+				text-align: center;
+			    margin-bottom: 54px;
+		        color: #00D38E;
 			}
-			.text-2 {
-				background: url(../images/bg-text-2.png) center center no-repeat; 
-				background-size: cover;
-				width: 304.25px;
-				height: 294.17px;
-			    padding: 25px;
-    			margin: 0 auto;
-				p {
-					font-size: 20px;
-					line-height: 134.79%;
-				}
-			}
-			.text-3 {
-				background: url(../images/bg-text-3.png) center center no-repeat; 
-				background-size: cover;
-				width: 304.72px;
-				height: 285.55px;
-			    padding: 25px;
-    			margin: 0 auto;
-				p {
-					font-size: 20px;
-					line-height: 134.79%;
-				}
-			}
+			// .text-1 {
+			// 	background: url(../images/bg-text-1.png) center center no-repeat; 
+			// 	background-size: cover;
+			// 	width: 305.03px;
+			// 	height: 276.58px;
+			//     padding: 25px;
+    		// 	margin: 0 auto;
+			// 	p {
+			// 		font-size: 20px;
+			// 		line-height: 134.79%;
+			// 	}
+			// }
+			// .text-2 {
+			// 	background: url(../images/bg-text-2.png) center center no-repeat; 
+			// 	background-size: cover;
+			// 	width: 304.25px;
+			// 	height: 294.17px;
+			//     padding: 25px;
+    		// 	margin: 0 auto;
+			// 	p {
+			// 		font-size: 20px;
+			// 		line-height: 134.79%;
+			// 	}
+			// }
+			// .text-3 {
+			// 	background: url(../images/bg-text-3.png) center center no-repeat; 
+			// 	background-size: cover;
+			// 	width: 304.72px;
+			// 	height: 285.55px;
+			//     padding: 25px;
+    		// 	margin: 0 auto;
+			// 	p {
+			// 		font-size: 20px;
+			// 		line-height: 134.79%;
+			// 	}
+			// }
 		}
 	}
 	.road-map {
 		background: url(../images/bg-home-bottom.png) bottom center no-repeat; 
-		background-size: cover;
+		background-size: auto;
 		text-align: center;
 		padding-bottom: 200px;
 		h1.title {
