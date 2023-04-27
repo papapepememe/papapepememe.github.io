@@ -297,6 +297,8 @@
 				text-align: center;
 			    margin-bottom: 54px;
 		        color: #00D38E;
+		        margin-top: 20px;
+		        margin-bottom: 20px;
 			}
 			// .text-1 {
 			// 	background: url(../images/bg-text-1.png) center center no-repeat; 
@@ -362,6 +364,7 @@
 			}
 			}
 			.direction {
+				margin: auto;
 				margin-top: 60px;
 				display: grid;
 				p {
@@ -372,6 +375,7 @@
 			.direction {
 				padding: 40px;
 				padding-top: 50px;
+
 				p::before {
 				  content: "\2022"; 
 				  margin-right: 0.5em; 

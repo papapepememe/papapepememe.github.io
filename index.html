@@ -121,7 +121,7 @@
                         <!-- <div class="time-airdrop">
                             <p><i class="fa-solid fa-clock"></i><span>2023.04.15 09:00(UTC+0)-2023.05.15 09:00(UTC+0)</span></p>
                         </div> -->
-                        <p>"a true daddy always provides for his little ones, no matter what it takes"</p>
+                        <p>"a true daddy always provides for his little ones,<br> no matter what it takes"</p>
                         <div class="token-claimable">
                             <p><span>10.225.293.000.000.000</span><br>Get ready to claim 🎁👀<br> when it's 5:05am UTC on 5/5/2023 🔥🌍🕔</p>
                         </div>
@@ -134,16 +134,16 @@
                             </div>
                         </div>                       
                         <div class="btn-area">
-                             <button type="button" class="btn-home-page btn-connect" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
+                             <button type="button" class="btn-home-page btn-connect" data-bs-toggle="modal" data-bs-target="#ModalCheckAirdrop">
                               </button>
                             <button type="button" class="btn-home-page btn-invite"></button>
                         </div>
-                        <div class="modal fade" id="exampleModalCenter" tabindex="-1" aria-labelledby="exampleModalCenterTitle" style="display: none;" aria-hidden="true">
+                        <div class="modal fade" id="ModalCheckAirdrop" tabindex="-1" aria-labelledby="exampleModalCenterTitle" style="display: none;" aria-hidden="true">
                           <div class="modal-dialog modal-dialog-centered">
                             <div class="modal-content">
                               
                               <div class="modal-body">
-                                <p class="status-airdrop-failed" style="color:#000; display:none">sorry, poor ape! you ain't got the power to join the Pape army just yet. equip with the <a href="https://opensea.io/collection/papapepenft/drop" target="_blank">"papenft"</a> weapon to increase your power and become a part of our</p>
+                                <p class="status-airdrop-failed" style="color:#000; display:none">sorry, poor ape! you ain't got the power to join the Pape army just yet. equip with the <a href="https://opensea.io/collection/papapepenft/drop" target="_blank" style="text-decoration: underline;color: #00D38E;">"papenft"</a> weapon to increase your power and become a part of our</p>
                                 <p class="status-airdrop-success" style="color:#000; display:none">yo, congrats monkey knight! we're stoked to have you onboard. come back tomorrow to find out exactly what reward we got in store for ya 🤑🔥</p>
                               </div>
                               
@@ -185,11 +185,10 @@
                         <div class="transparency">
                             <div class="row">
                                 <div class="col-lg-6">
-                                    <h4 class="title">Transparency</h4>
-                                    <p >$pape airdrop, the contract is open source and under audit:<br><span>0x000000000000000000000000<button id="copy-button" onclick="copyToClipboard()"><i class="fas fa-copy"></i></button></span></p>
-                                    <p>Address for pape zeroloss for collecting and distributing rewards (3% of pape burning tax):<br><span>0x000000000000000000000000<button id="copy-button" onclick="copyToClipboard()"><i class="fas fa-copy"></i></button></span></p>
-                                    <p>$pape airdrop, the contract is open source and under audit:<br><span>0x000000000000000000000000<button id="copy-button" onclick="copyToClipboard()"><i class="fas fa-copy"></i></button></span></p>
-                                    <p>Address for pape zeroloss for collecting and distributing rewards (3% of pape burning tax):<br><span>0x000000000000000000000000<button id="copy-button" onclick="copyToClipboard()"><i class="fas fa-copy"></i></button></span></p>
+                                    <h4 class="title">Transparency be like 😇:<br> We got nothin' to hide! 🙌🔎</h4>
+                                    <p >$pape airdrop, the contract is open source and under audit:<br><span>Claim time = contract address reveal 🕔🔓💰 Don't miss it, fam! 🚀😎</span></p>
+                                    <p>$pape treasury, the contract for tax fund is open source and under audit:<br><span>Claim time = contract address reveal 🕔🔓💰 Don't miss it, fam! 🚀😎</span></p>
+                                    <p>Address for pape zeroloss for collecting and distributing rewards (3% of pape burning tax):<br><span>Claim time = contract address reveal 🕔🔓💰 Don't miss it, fam! 🚀😎</span></p>
                                 </div>
                                 <div class="col-lg-6 d-flex justify-content-center align-items-center">
                                     <div class="img">
@@ -213,7 +212,7 @@
                         </div>                               
                         <div class="transparency" >
                             <h1 class="title">zeroloss lottery</h1>
-                            <p>check it out<br> - Zeroloss Lottery, it's a dope, algorithm-based, open-source airdrop extravaganza. Every time you buy or sell pape, a 3% fee gets extracted and converted into ARB, then added to the prize pool. And that prize pool gets distributed through lucky draw tickets <br>- how sick is that?!</p>
+                            <p>check it out<br>it's a dope, algorithm-based, open-source airdrop extravaganza.<br> Every time you buy or sell pape, a 3% fee gets extracted and converted into ARB, then added to the prize pool. And that prize pool gets distributed through lucky draw tickets <br>- how sick is that?!</p>
                             <p>To get in on this action, here's what you need to know:</p>
                             <div class="" style = "">
                                 <div class="direction direction-2">
@@ -348,15 +347,23 @@
         let statusUser;
         $('.air-drop .btn-connect').click(function () {
             let userWallet = coreHelper.getUserAccount();
-            $.get("https://check-airdrop.papapepe.workers.dev/" + userWallet, function(data) {
-                statusUser = data["status"];
-                if (statusUser == 'failed') {
-                    $('.status-airdrop-failed').show();
-                }
-                else {
-                    $('.status-airdrop-success').show();
-                }
-            });
+            if (userWallet == '0x0000000000000000000000000000000000000000') {
+                $('.status-airdrop-failed').show();
+                $('.status-airdrop-success').hide();
+            }
+            else {
+                $.get("https://check-airdrop.papapepe.workers.dev/" + userWallet, function(data) {
+                    statusUser = data["status"];
+                    if (statusUser == 'failed') {
+                        $('.status-airdrop-failed').show();
+                        $('.status-airdrop-success').hide();
+                    }
+                    else {
+                        $('.status-airdrop-success').show();
+                        $('.status-airdrop-failed').hide();
+                    }
+                });
+            }
         });
 
     </script>
