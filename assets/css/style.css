@@ -1203,6 +1203,9 @@ footer .social-area ul.social-list li:first-child {
   .wrapper {
     width: 100%;
   }
+  .home-page .tokenomic .transparency h4.title {
+    font-size: 20px;
+  }
   footer {
     text-align: center;
   }
