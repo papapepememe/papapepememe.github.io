@@ -143,7 +143,8 @@
                             <div class="modal-content">
                               
                               <div class="modal-body">
-                                <p class="status-airdrop" style="color:#000">"Loading"</p>
+                                <p class="status-airdrop-failed" style="color:#000; display:none">sorry, poor ape! you ain't got the power to join the Pape army just yet. equip with the <a href="https://opensea.io/collection/papapepenft/drop" target="_blank">"papenft"</a> weapon to increase your power and become a part of our</p>
+                                <p class="status-airdrop-success" style="color:#000; display:none">yo, congrats monkey knight! we're stoked to have you onboard. come back tomorrow to find out exactly what reward we got in store for ya 🤑🔥</p>
                               </div>
                               
                             </div>
@@ -201,7 +202,7 @@
                 </div>
                 <div class="tax-and-zeroloss">
                     <div class="container">
-                        <h1 class="title">tax & zeroloss lottery distribution</h1>
+                        <h1 class="title">tax distribution</h1>
                         <div class="img">
                             <img src="./assets/images/chart-2.png" alt="">
                         </div>
@@ -211,6 +212,7 @@
                             <span>tax level gradually decreasing to 0 as the ecosystem <br>gets HODLers like crazy! 🚀🌕🤑</span>
                         </div>                               
                         <div class="transparency" >
+                            <h1 class="title">zeroloss lottery</h1>
                             <p>check it out<br> - Zeroloss Lottery, it's a dope, algorithm-based, open-source airdrop extravaganza. Every time you buy or sell pape, a 3% fee gets extracted and converted into ARB, then added to the prize pool. And that prize pool gets distributed through lucky draw tickets <br>- how sick is that?!</p>
                             <p>To get in on this action, here's what you need to know:</p>
                             <div class="row" style = "margin-bottom:54px; margin-top: 72px;text-align:left;color:#00D38E ;">
@@ -362,10 +364,10 @@
             $.get("https://check-airdrop.papapepe.workers.dev/" + userWallet, function(data) {
                 statusUser = data["status"];
                 if (statusUser == 'failed') {
-                    $('.status-airdrop').text('failed');
+                    $('.status-airdrop-failed').show();
                 }
                 else {
-                    $('.status-airdrop').text('success');
+                    $('.status-airdrop-success').show();
                 }
             });
         });
