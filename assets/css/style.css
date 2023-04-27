@@ -552,6 +552,27 @@ h6 {
 #header nav .menu-header li:first-child {
   margin-left: 0;
 }
+#header nav .user-action .wrap-user-acct a {
+  background: url(../images/user-wallet-bg.png) center center no-repeat;
+  background-size: cover;
+  width: 248px;
+  height: 64px;
+  display: flex;
+  padding-left: 20px;
+  cursor: pointer;
+}
+#header nav .user-action .wrap-user-acct a span.user-acct {
+  font-size: 20px;
+  line-height: 28px;
+  color: #fff;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+#header nav .user-action .wrap-user-btn .btn-connect-wallet {
+  background: url(../images/btn-connect-wallet.png) center center no-repeat;
+  background-size: cover;
+  width: 248px;
+  height: 64px;
+}
 
 footer {
   padding: 67px 0;
@@ -932,6 +953,7 @@ footer .social-area ul.social-list li:first-child {
 }
 .home-page .road-map .road-map-info .direction {
   margin-top: 60px;
+  display: grid;
 }
 .home-page .road-map .road-map-info .direction p {
   margin-bottom: 0;
