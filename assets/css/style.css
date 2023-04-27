@@ -958,6 +958,10 @@ footer .social-area ul.social-list li:first-child {
 .home-page .road-map .road-map-info .direction p {
   margin-bottom: 0;
 }
+.home-page .road-map .road-map-info .direction {
+  padding: 40px;
+  padding-top: 50px;
+}
 .home-page .road-map .road-map-info .direction p::before {
   content: "•";
   margin-right: 0.5em;
@@ -967,21 +971,18 @@ footer .social-area ul.social-list li:first-child {
   background-size: cover;
   width: 1109.15px;
   height: 308.23px;
-  padding: 40px;
 }
 .home-page .road-map .road-map-info .direction-2 {
   background: url(../images/bg-text-5.png) center center no-repeat;
   background-size: cover;
   width: 1109px;
   height: 394px;
-  padding: 40px;
 }
 .home-page .road-map .road-map-info .direction-3 {
   background: url(../images/bg-text-6.png) center center no-repeat;
   background-size: cover;
   width: 1120px;
   height: 297px;
-  padding: 40px;
 }
 
 @media screen and (min-width: 1200px) {
